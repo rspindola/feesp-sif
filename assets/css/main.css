@@ -1,0 +1,210 @@
+/* stylelint-disable olor-hex-length */
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('../fonts/Avenir-Black.woff') format('woff2'),
+    url('../fonts/Avenir-Black.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('../fonts/Avenir-Book.woff') format('woff2'),
+    url('../fonts/Avenir-Book.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('../fonts/Avenir-Heavy.woff') format('woff2'),
+    url('../fonts/Avenir-Heavy.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir-Light';
+  src: url('../fonts/Avenir-Light.woff') format('woff2'),
+    url('../fonts/Avenir-Light.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('../fonts/Avenir-Medium.woff') format('woff2'),
+    url('../fonts/Avenir-Medium.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url('../fonts/Avenir-Roman.woff') format('woff2'),
+    url('../fonts/Avenir-Roman.woff2') format('woff');
+}
+
+h1 {
+  font-family: 'Avenir-Book';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+h2 {
+  font-family: 'Avenir-Book';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+h3 {
+  font-family: 'Avenir-Medium';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2867a1;
+}
+
+h4 {
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+h5 {
+  font-family: 'Avenir-Medium';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h6 {
+  font-family: 'Avenir-Book';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  font-family: 'Avenir-Roman';
+
+  padding: 10px 16px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* Primary dark */
+
+  color: #2867a1;
+}
+
+.font-regular {
+  font-family: 'Avenir-Roman';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.font-medium {
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.font-bold {
+  font-family: 'Avenir-Heavy';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.font-large {
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.font-small-regular {
+  font-family: 'Avenir-Roman';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.font-small-medium {
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: '/\00a0';
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.primary-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  /* width: 96px; */
+  height: 48px;
+  background: linear-gradient(6.03deg, #00489c 0%, #1d578d 100%);
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.secondary-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  /* width: 96px; */
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #2867a1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #2867a1;
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.card {
+  background-color: #ffffff;
+}
